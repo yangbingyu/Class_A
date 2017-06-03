@@ -26,7 +26,7 @@ CREATE TABLE X_Manager (
   X_Manager_ID   INT(10)  NOT NULL AUTO_INCREMENT,
   PRIMARY KEY (X_Manager_ID)
 )CHARSET = utf8;
-# 以下需要修改。
+
 CREATE TABLE X_Course (
   X_Course_Content VARCHAR(25) NOT NULL,
   X_Course_Intro  VARCHAR(25) NOT NULL,
@@ -49,7 +49,7 @@ CREATE TABLE X_Electives(
 )CHARSET = utf8;
 
 
-INSERT INTO x_student (X_Student_Name, X_Student_User, X_Student_Pwd) VALUES ("李晓津",123,123);
+INSERT INTO x_student (X_Student_Name, X_Student_User, X_Student_Pwd) VALUES ("李。。",123,123);
 
 INSERT INTO X_Teacher (X_Teacher_Name, X_Teacher_Pwd, X_Teacher_User) VALUES ("李老师",456,456);
 
