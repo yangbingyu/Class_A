@@ -29,11 +29,11 @@
     <table>
         <tr>
             <td>用户名：</td>
-            <td><input style="text" name="user"></td>
+            <td><input type="text" name="user"></td>
         </tr>
         <tr>
             <td>密码：</td>
-            <td><input style="password" name="user_psw"></td>
+            <td><input type="password" name="user_psw"></td>
         </tr>
         <tr>
             <td>类型：</td>
@@ -44,11 +44,11 @@
         </tr>
         <tr>
             <td><input type="submit" value="提交"></td>
-            <td><input type="reset" value="重置"</td>
+            <td><input type="reset" value="重置"></td>
         </tr>
         <tr>
-            <td><a href="#">忘记密码？</a><br></td>
-            <td><a href="#">老师学生注册</a></td>
+            <td><a href="#">忘记密码</a><br></td>
+            <td><a href="#">用户注册</a></td>
         </tr>
     </table>
 </form>

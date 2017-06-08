@@ -10,9 +10,9 @@ public class Conn {
 
     /*org.gjt.mm.mysql.Driver*/
     public static final String DBDRIVER = "com.mysql.jdbc.Driver";//com.mysql.jdbc.Driver
-    public static final String DBURL = "jdbc:mysql://localhost:3306/jsp?useUnicode=true&amp;characterEncoding=UTF-8&amp;autoReconnect=true";
+    public static final String DBURL = "jdbc:mysql://localhost:3306/class_a?useUnicode=true&amp;characterEncoding=UTF-8&amp;autoReconnect=true";
     public static final String DBUSER = "root";
-    public static final String DBPASS = "123456";
+    public static final String DBPASS = "shixinkong.123";
     Connection connection= null;
 
 
